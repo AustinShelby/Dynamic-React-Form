@@ -72,7 +72,6 @@ const App: FC = () => {
               />
             </label>
           )}
-          <pre>{JSON.stringify(watch(), null, 2)}</pre>
           <button className="mt-12 w-full bg-orange-600 rounded-lg px-6 py-3 text-white font-medium">
             Order Package
           </button>
